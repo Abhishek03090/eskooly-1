@@ -1,0 +1,38 @@
+.details {
+    background: rgb(247, 229, 233);
+    border-radius: 36px;
+    margin-bottom: 52px;
+    position: absolute;
+    width: 78%;
+    top: 29%;
+    left: 22%;
+}
+.extra{
+    background: linear-gradient(45deg, #9698d6, #a9abdb);
+    border-radius: 16px;
+        width: 221px 
+    
+  
+}
+.form-1{
+    position: relative;
+    top: 73px;
+    left: 7%;
+}
+.pad{
+    padding: 6px;
+}
+
+@media (max-width: 765px) {
+    .details{
+     position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    }
+    .form-1{
+    position: relative;
+    top: 130px;
+    left: 1%;
+    }
+} 

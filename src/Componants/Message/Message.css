@@ -1,0 +1,62 @@
+@media(min-width:760px){
+    .compose{
+        position: absolute;
+        top: 121px;
+        left: 330px;
+        width: 40%;
+        box-shadow: 2px 2px 5px 6px rgba(4, 26, 55, 0.16);
+        border: none;
+        margin-bottom: 30px;
+        overflow: hidden;
+        -webkit-transition: all 0.3s ease-in-out;
+        transition: all 0.3s ease-in-out;
+    }
+    
+    .compose:hover{
+        box-shadow: 3px 3px 6px 7px rgba(1, 13, 28, 0.16);
+    }
+    .box{
+        position: absolute;
+        left: 1000px;
+    }
+    .receive{
+        position: absolute;
+        top: 123px;
+        left: -124px;
+    }
+
+    .buton{
+        position: absolute;
+        left: 334px;
+    }
+}
+
+@media(max-width:415px){
+    .box{
+        position: absolute;
+        top: 550px;
+        margin-left: 1pc;
+        width: 95%;
+    }
+
+    .to{
+        position: absolute;
+        left: 195px;
+    }
+
+    .compose{
+        position: absolute;
+        top: 90px;
+        width: 87%;
+        left: 27px;
+        border : 1px solid;
+        margin-left: 9px;
+    }
+    .buton{
+        position: absolute;
+        bottom: -27pc;
+        right: 7pc;
+    width: 75%;
+    }
+    }
+

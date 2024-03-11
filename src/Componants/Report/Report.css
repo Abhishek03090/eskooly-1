@@ -1,0 +1,59 @@
+@media(max-width:760px){
+    .row-2{
+        width: 830px;
+        display: none;
+    }
+
+    /* .module-body{
+       width:1000px
+    } */
+    .arrange{
+        position: absolute;
+        top: 410px;
+        right: 260px;
+    }
+
+    .size{
+        width: 220px;
+        position: absolute;
+        top: 421px;
+        right: 34px;
+        
+    
+
+    }
+
+    .class{
+        margin:1px;
+        position: absolute;
+        left: -354px;
+        width:600px
+    }
+
+    .size-1{
+        width: 308px;
+     }
+    .size-2{
+        width: 600px;
+        position: absolute;
+        top: 41pc;
+    }
+
+
+    .part-1{
+        width: 600px;
+    }
+
+    .EXAMINATION{
+        position: absolute;
+        bottom: -411px;
+        right: 1px;
+        /* width: 911px; */
+    }
+    }
+
+    @media(min-width:760px){
+        .exam{
+            display: none;
+        }
+    }

@@ -8,8 +8,8 @@ const Login = ({ setIsLoggedIn }) => {
   const [username, setUsername] = useState('');
   const [password, setPassword] = useState('');
   const [errorMessage, setErrorMessage] = useState('');
-  localStorage.setItem('username', '6726771BL');
-  localStorage.setItem('password', '4582333');
+  localStorage.setItem('username', 'Abhishek');
+  localStorage.setItem('password', '12345');
 
   const handleLogin = () => {
     // Retrieve stored credentials from local storage

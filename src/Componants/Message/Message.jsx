@@ -14,7 +14,7 @@ const Message = () => {
                     <div>
 
                         <div className="row">
-                            <div className="col-lg-6 col-xl-6 text-center  p-40 m-round compose">
+                            <div className="col-lg-6 col-xl-6 text-center  p-40 m-round compose" >
                                 <h5 className="m-blue1 m-10" id="tog" style={{ cursor: "pointer", color: "#5e81f4" }}>
                                     <FontAwesomeIcon icon={faPencil} /> Compose A New Message
                                 </h5>
@@ -31,7 +31,7 @@ const Message = () => {
                                         <br />
                                         <select
                                             name="type"
-                                            className="form-control m-round"
+                                            className="form-control m-round active"
                                             id="type"
                                             onchange="myFunction()"
                                         >
@@ -97,7 +97,7 @@ const Message = () => {
                                     </h5>
                                 </form>
                             </div>
-                            <div className="col-lg-6 col-xl-6 box">
+                            <div className="col-lg-6 col-xl-6 box" >
                                 <h6 className="p-10 receive">
                                     <Link to="#" style={{ marginRight: "4px", color: " #5e81f4" }}>
                                         <FontAwesomeIcon icon={faCommentAlt} /> Sent{" "}
@@ -110,14 +110,15 @@ const Message = () => {
                                     <Link
                                         to="#"
                                         className="to"
-                                        style={{ marginLeft: "80px", color: "#ff808b " }}
+                                        style={{     position: "absolute",
+                                            left: "17pc", color: "#ff808b " }}
                                     >
-                                        <FontAwesomeIcon icon={faCommentAlt} /> Received
+                                        <FontAwesomeIcon icon={faCommentAlt} /><span className='recieved'>Received</span> 
                                     </Link>
                                 </h6>
                                 
                             </div>
-                            <div className='buton scroll'>
+                            <div className='buton' >
                                     <h5 className="text-center">
                                         <Link to="#">
                                             <button style={{ background: "linear-gradient(45deg, #9698d6, #a9abdb)", borderRadius: "15px", border: "1px rgb(150, 152, 214)", padding: "13px", color: "white", position: "absolute", top: "162px" }} >

@@ -51,10 +51,10 @@ const Report = () => {
                         top: "50%",
                         left: "50%",
                         transform: "translate(-50%, -50%)",
-                        width: "400px"
+                        width: "361px"
                     }}>
                         <h6 className="bg-gradient-gray m-white p-10" style={{ borderBottomLeftRadius: '10px', borderBottomRightRadius: '10px', padding: "6px", marginTop: "-20px" }}>
-                            ADMISSION CONFIRMATION
+                            Examination Result
                         </h6>
                         <h5>
                             <img src={NoImage} width="100px" className="img-circle" height="100px" alt="Student" />

@@ -4,9 +4,15 @@
         display: none;
     }
 
-    /* .module-body{
+    
+    .class{
+        display: none;
+        
+    }
+
+    /* /* .module-body{
        width:1000px
-    } */
+    } 
     .arrange{
         position: absolute;
         top: 410px;
@@ -48,12 +54,37 @@
         position: absolute;
         bottom: -411px;
         right: 1px;
-        /* width: 911px; */
-    }
+        /* width: 911px; 
+    }*/
     }
 
     @media(min-width:760px){
         .exam{
             display: none;
         }
-    }
+       
+
+    } 
+
+    @media print {
+
+        /* Styles to be applied only when printing */
+        body * {
+          visibility: visible;
+        }
+      
+      
+      
+      
+        .row-2 {
+          visibility: visible;
+          display: block;
+        }
+      
+        .exam {
+          display: none;
+          visibility: hidden;
+          /* display: none; */
+        }
+      
+      }

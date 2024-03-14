@@ -48,7 +48,7 @@ function More(onuse) {
         <ul className="list-unstyled components">
           <li className="" id="dashboard">
             <Link
-              to="/dashboard"
+              to="/"
               onClick={() => handleButtonClick('dashboard')}
               className={activeButton === 'dashboard' ? 'active' : ''}
             >

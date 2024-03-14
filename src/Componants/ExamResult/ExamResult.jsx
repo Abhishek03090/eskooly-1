@@ -8,6 +8,7 @@ import {
   faGlobe,
   faEnvelope,
   faSearch,
+  faPrint,
 
 } from '@fortawesome/free-solid-svg-icons';
 import './ExamResult.css'
@@ -157,8 +158,8 @@ const ExamResult = () => {
                 </div>
               </div>
             </div>
-            <div className="col-md-12 text-center m-b-20">
-              <form action="examresult.php" method="post" className='form-1'>
+            <div className>
+              <form action="#" method="post" className='form-1'>
                 <select
                   name="selectexamname"
                   required=""
@@ -177,19 +178,9 @@ const ExamResult = () => {
                 </select>
                 <button
                   type="submit"
-                  className="btn waves-effect waves-light"
+                  className="btn waves-effect waves-light btno"
                   name="examresult"
-                  style={{
-                    color: "#000",
-                    background: "none",
-                    border: "none",
-                    borderBottom: "1px solid gray",
-                    padding: "9px 10px 8px 10px",
-                    position: "relative",
-                    top: "-3px",
-                    left: "0%"
-                 
-                  }}
+                  
                 >
                  <FontAwesomeIcon icon={faSearch}  />
                 </button>
@@ -259,7 +250,7 @@ const ExamResult = () => {
                   onclick="printDiv();"
                   style={{marginTop: "4px"}}
                 >
-                  <i className="ti-printer" /> Print Result Card
+                  <FontAwesomeIcon icon={faPrint} /> Print Result Card
                 </button>
               </h3>
             </div>

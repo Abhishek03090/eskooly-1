@@ -20,7 +20,7 @@ function Header({ onMoreClick }) {
   });
 
   const [showHamburger, setShowHamburger] = useState(false);
-  const [showMore, setShowMore] = useState(false);
+  // const [showMore, setShowMore] = useState(false);
 
   const toggleFullScreen = () => {
     console.log('Toggle Full Screen');
@@ -40,20 +40,20 @@ function Header({ onMoreClick }) {
     }));
   };
 
-  const handleHamburgerClick = () => {
-    setShowHamburger(!showHamburger);
-    setShowMore(false); // Close More when Hamburger is clicked
-  };
+  // const handleHamburgerClick = () => {
+  //   setShowHamburger(!showHamburger);
+  //   // setShowMore(false); // Close More when Hamburger is clicked
+  // };
 
-  const handleMoreClick = () => {
-    setShowMore(!showMore);
-    setShowHamburger(false); // Close Hamburger when More is clicked
-  };
+  // const handleMoreClick = () => {
+  //   setShowMore(!showMore);
+  //   // setShowHamburger(false); // Close Hamburger when More is clicked
+  // };
 
-  const closeBothMenus = () => {
-    setShowHamburger(false);
-    setShowMore(false);
-  };
+  // const closeBothMenus = () => {
+  //   setShowHamburger(false);
+  //   setShowMore(false);
+  // };
 
   return (
     <>
@@ -69,7 +69,7 @@ function Header({ onMoreClick }) {
           </Navbar.Brand>
 
           <Nav className="me-auto">
-            <Nav.Link href="#" className='more'>
+            <Nav.Link href="" className='more'>
               <img src={More} alt="More" style={{ width: '60%' }} onClick={onMoreClick} />
             </Nav.Link>
             <Nav.Link href="#">
@@ -127,19 +127,20 @@ function Header({ onMoreClick }) {
             </Nav>
           
            <Nav classname="display">
-           <Nav.Link
+           {/* <Nav.Link
               href="#"
               className={`hamburger-icon ${showHamburger ? 'active' : ''}`}
               onClick={handleHamburgerClick}
             >
               <FontAwesomeIcon icon={faCog} className='gripline' />
-            </Nav.Link>
+            </Nav.Link> */}
             
            </Nav>
             
         </Container>
       </Navbar>
-      {showMore && <More onClose={closeBothMenus} />}    </>
+      {/* {showMore && <More onClose={closeBothMenus} />}    */}
+      </>
   );
 }
 

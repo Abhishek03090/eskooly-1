@@ -8,7 +8,7 @@
     margin-top: 0px; /* Adjust the margin based on your Navbar height */
     background-color: rgba(241, 213, 213, 0.48); /* Set your desired background color */
     padding-top: 75px;
-    box-shadow:10px 0px 2px rgba(4, 26, 55, 0.16);
+    box-shadow:2px 0px 2px rgba(4, 26, 55, 0.16);
   }
 
   span{

@@ -11,35 +11,53 @@ import ExamResult from './Componants/ExamResult/ExamResult';
 import Message from './Componants/Message/Message';
 import AccountSetting from './Componants/AccountSetting/AccountSetting';
 import Login from './Componants/Login/Login';
+import HamburgerMenu from './Componants/Header/HamburgerMenu';
+import { useEffect } from 'react';
+import DashBoard from './Componants/Dashboard/Dashboard';
 
 function App() {
-  const [isLoggedIn, setIsLoggedIn] = useState(false);
+  // const [isLoggedIn, setIsLoggedIn] = useState(false);
   const [showMoreContent, setShowMoreContent] = useState(false);
-  const isSmallScreen = window.innerWidth <= 760;
+  const [isSmallScreen, setIsSmallScreen] = useState(window.innerWidth < 768);
+
+
+  useEffect(() => {
+    const handleResize = () => {
+      setIsSmallScreen(window.innerWidth < 768);
+    };
+
+    window.addEventListener('resize', handleResize);
+
+    return () => {
+      window.removeEventListener('resize', handleResize);
+    };
+  }, []);
 
   const handleMoreClick = () => {
     setShowMoreContent(!showMoreContent);
   };
 
-  const handleLoginSuccess = () => {
-    setIsLoggedIn(true);
-  };
 
-  if (!isLoggedIn) {
+
+  // const handleLoginSuccess = () => {
+  //   setIsLoggedIn(true);
+  // };
+
+  // if (!isLoggedIn) {
+  //   return (
+  //     <div className="App">
+  //       <Login setIsLoggedIn={handleLoginSuccess} />
+  //     </div>
+  //   );
+  // } else {
     return (
       <div className="App">
-        <Login setIsLoggedIn={handleLoginSuccess} />
-      </div>
-    );
-  } else {
-    return (
-      <div className="App">
-       
-          <Header onMoreClick={handleMoreClick} />
+{isSmallScreen ? <HamburgerMenu handleClick={handleClick}/>:<Header onMoreClick={handleMoreClick} /> }         
           {showMoreContent && <More />}
           {!isSmallScreen && <More />}
 
           <Routes>
+          <Route path="/" element={<DashBoard />} />
             <Route path="/Admission-letter" element={<Admissionletter />} />
             <Route path="/timetable" element={<TimeTable />} />
             <Route path="/report" element={<Report />} />
@@ -50,10 +68,9 @@ function App() {
             <Route path="/accountsettings" element={<AccountSetting />} />
           </Routes>
       
-        <div className="slide-in"></div>
       </div>
     );
   }
-}
+
 
 export default App;

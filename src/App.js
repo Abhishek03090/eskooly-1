@@ -52,7 +52,7 @@ function App() {
   // } else {
     return (
       <div className="App">
-{isSmallScreen ? <HamburgerMenu handleClick={handleClick}/>:<Header onMoreClick={handleMoreClick} /> }         
+{isSmallScreen ? <HamburgerMenu/>:<Header onMoreClick={handleMoreClick} /> }         
           {showMoreContent && <More />}
           {!isSmallScreen && <More />}
 

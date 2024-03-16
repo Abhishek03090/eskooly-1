@@ -12,12 +12,14 @@ import {
     faSadCry,
     faFootball
 } from '@fortawesome/free-solid-svg-icons';
+import { Link } from 'react-router-dom';
 import "./Report.css"
 
 const Report = () => {
     const handlePrintClick = () => {
 
         window.print();
+        console.log("ready to print");
     };
 
     return (
@@ -26,25 +28,22 @@ const Report = () => {
 
                 <div className="page-body" >
 
-                    {/* <div className="row">
+                    <div className="row">
                         <div className="col-sm-12">
-                            <a href="#" className="f-right">
-                                <button className="btn" onclick="getPDF();" title="PDF">
-                                    <i className="ti-export" /> GET PDF
-                                </button>
-                            </a>
-                            <a href="#" className="f-right">
+                            
+                            <Link to="#" className="f-right">
                                 <button
-                                    className="btn  bg-m-blue1 m-white"
-                                    onclick="printDiv();"
+                                    className="btn  bg-m-blue1 m-white  print1"
+                                    onClick={handlePrintClick}
                                     title="Print Statement"
+                                    style={{border:"bllue"}}
                                 >
                                     <FontAwesomeIcon icon={faPrint} />
-                                    Print
+                                    Print Report Card
                                 </button>
-                            </a>
+                            </Link>
                         </div>
-                    </div> */}
+                    </div>
                     <div className="col-lg-4 col-md-12 text-center m-round p-20 p-t-0 exam" style={{
                         background: '#ffff', border: '2px solid gray', borderRadius: "10px", margin: "0 auto", padding: "20px", float: "left",
                         position: "absolute",
@@ -124,7 +123,7 @@ const Report = () => {
                                 value="Print"
                                 onClick={handlePrintClick}
                             >
-                                <FontAwesomeIcon icon={faPrint} />Print Admission Letter
+                                <FontAwesomeIcon icon={faPrint} />Print Report Card
                             </button>
                         </h3>
 
@@ -136,9 +135,9 @@ const Report = () => {
                         style={{
                             border: "0px solid #9698d6", padding: "5px 5px 5px 15px",
                             marginLeft: "256px", float: "left",
-                            position: "absolute",
-                            top: "30%",
-                            left: "2%"
+                            position: "relative",
+                            top: "7pc",
+                            left: "0pc"
                         }}
                     >
                         <div

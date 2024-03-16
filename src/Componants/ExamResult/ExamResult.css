@@ -28,6 +28,11 @@
     margin-right:0px;
 }
 
+.print2{
+    display: none;
+    visibility: hidden;
+}
+
 @media (min-width: 765px) {
    .btno{
     color: rgb(0, 0, 0);
@@ -95,3 +100,21 @@
         left: 259%;
     }
 } 
+
+@media print{
+    body{
+        visibility: visible;
+    }
+    .details{
+        display: none;
+        visibility: hidden;
+    }
+    .hider{
+        display: none;
+        visibility: hidden;
+    }
+    .print2{
+        display: block;
+        visibility: visible;
+    }
+}

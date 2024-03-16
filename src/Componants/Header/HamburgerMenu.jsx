@@ -83,7 +83,7 @@ const HamburgerMenu = () => {
           <li className="nav-item" id="paidfeerecipt" onClick={closeMenu}>
             <Link
               className='nav-link'
-              to="#"
+              to="/paidfeerecipt"
 
           
             >

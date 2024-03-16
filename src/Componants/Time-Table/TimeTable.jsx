@@ -20,12 +20,14 @@ function Timetable() {
         className="btn btn-sm m-t-20 bg-m-orange m-white waves-effect waves-light buttton"
         style={{ borderRadius: '15px',position: "relative",
         top: "90px",
-        left: "80%" }}
+        left: "80%",
+        width: "10pc"
+       }}
         id="btn"
         value="Print"
         onClick={handlePrintClick}
     >
-        <FontAwesomeIcon icon = {faPrint}/>Print Admission Letter
+        <FontAwesomeIcon icon = {faPrint}/>Print TimeTable
     </button>
     </h3>
     <Container fluid="md" className='timetable'>

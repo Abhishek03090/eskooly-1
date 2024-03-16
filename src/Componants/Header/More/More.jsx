@@ -68,7 +68,7 @@ function More(onuse) {
           </li>
           <li className="" id="paidfeerecipt">
             <Link
-              to="#"
+              to="/paidfeerecipt"
               onClick={() => handleButtonClick('paidfeerecipt')}
               className={activeButton === 'paidfeerecipt' ? 'active' : ''}
             >
@@ -118,7 +118,7 @@ function More(onuse) {
           </li>
           <li className="" id="homeassignment">
             <Link
-              to="#"
+              to="/homeassignment"
               onClick={() => handleButtonClick('homeassignment')}
               className={activeButton === 'homeassignment' ? 'active' : ''}
             >

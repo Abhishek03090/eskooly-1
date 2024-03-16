@@ -24,7 +24,7 @@ const ExamResult = () => {
         <div className="page-body">
 
           <div className="row">
-            <div id="area" className="col-lg-12 col-md-12" style={{display:"none", visibility:"visible"}} >
+            <div id="area" className="col-lg-12 col-md-12 print2"  >
               <div
                 className="col-lg-12 col-md-12 card m-t-20"
                 style={{ background: "#fff", fontSize: 10, padding: 30 }}
@@ -158,7 +158,7 @@ const ExamResult = () => {
                 </div>
               </div>
             </div>
-            <div className>
+            <div className = " hider">
               <form action="#" method="post" className='form-1'>
                 <select
                   name="selectexamname"
@@ -247,7 +247,7 @@ const ExamResult = () => {
                   className="btn m-t-20 bg-m-orange m-white waves-effect waves-light"
                   id="btn"
                   value="Print"
-                  onclick="printDiv();"
+                  onClick={printDiv}
                   style={{marginTop: "4px"}}
                 >
                   <FontAwesomeIcon icon={faPrint} /> Print Result Card

@@ -1,23 +1,25 @@
 @media print {
 
-  /* Styles to be applied only when printing */
-  body * {
-    visibility: visible;
-  }
 
+    /* Styles to be applied only when printing */
+    body * {
+      visibility: hidden;
+    }
+  
+    .canvas_div_pdf {
+      visibility: visible;
+      display: block;
+    }
 
-
-
-  .canvas_div_pdf {
-    visibility: visible;
-    display: block;
-  }
-
-  .printer {
-    display: none;
-    visibility: hidden;
-    /* display: none; */
-  }
+    .print{
+      display: none;
+      visibility: hidden;
+    }
+    .sidebar{
+      display: none;
+      visibility: hidden;
+    }
+  
 
 }
 

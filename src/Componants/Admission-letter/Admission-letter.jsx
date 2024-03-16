@@ -6,7 +6,7 @@ import QRcodePlay from "../../Assests/qr-code-play.png"
 import QRcodeApp from "../../Assests/qr-code-app.png"
 import QRcodeWeb from "../../Assests/qr-code-web.png"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faPrint } from '@fortawesome/free-solid-svg-icons';
+import { faCheck, faPrint } from '@fortawesome/free-solid-svg-icons';
 
 import "./Admission-letter.css"
 
@@ -25,7 +25,7 @@ const AdmissionConfirmation = () => {
 
             <div className="row print-exclude">
                 <div className="col-lg-4"></div>
-                <div className="col-lg-4 col-md-12 text-center m-round p-20 p-t-0"  style={{   background: '#ffff', border: '2px solid gray', borderRadius: "10px", margin: "0 auto", padding: "20px", float: "left",
+                <div className="col-lg-4 col-md-12 text-center m-round p-20 p-t-0 print"  style={{   background: '#ffff', border: '2px solid gray', borderRadius: "10px", margin: "0 auto", padding: "20px", float: "left",
                     position: "absolute",
                     top: "50%",
                     left: "50%",
@@ -63,7 +63,7 @@ const AdmissionConfirmation = () => {
                                 <td>Account Status</td>
                                 <td>
                                     <b className="text-success">
-                                        Active <i className="fa fa-check"></i>
+                                        Active <FontAwesomeIcon icon={faCheck}/>
                                     </b>
                                 </td>
                             </tr>
@@ -125,7 +125,7 @@ const AdmissionConfirmation = () => {
                                         <tbody>
                                             <tr style={{ border: 'none' }}>
                                                 <td>
-                                                    <img src= {NoImage} style={{ width: '130px', height: '130px' }} className="m-round" />
+                                                    <img src= {NoImage} style={{ width: '100px', height: '100px' }} className="m-round" />
                                                 </td>
                                                 <td>
                                                     <div style={{ position: 'relative' }}>

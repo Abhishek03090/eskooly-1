@@ -12,9 +12,9 @@ const DashBoard = () => {
                     <h1 className='font1'>Welcome to eSkooly</h1>
                     <span className='font2'>Lorem ipsum dolor sit amet.</span>
                     <img src={NoImage} className='image' alt='' />
-                    <button className='butn' style={{background: "#a3a9a3",
+                    <button className='butn' style={{
     border: "1px solid #a3a9a3",
-    borderRadius: "12px"}}>See Details</button>
+    borderRadius: "38px"}}>See Details</button>
 
                 </div>
                 <div class="history_lists">
@@ -62,10 +62,89 @@ const DashBoard = () => {
                     </div>
                     <div class="list2">
                         <div class="row">
-                            <h4 style={{marginTop: "-22px"}}>Attandence:</h4>
+                            <h4 style={{marginTop: "-22px"}}>Attandence:76%</h4>
                             
                         </div>
                         <table className='tabl2'>
+                            <thead>
+                                <tr style = {{backgroundColor: "#ebebeb"}}>
+                                    <th style={{width:"161px"}}>Maths:</th>
+                                     <td>45%</td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                <th style={{width:"161px"}}>English:</th>
+                                    
+                                    <td>67%</td>
+                                    
+                                </tr>
+                                <tr style = {{backgroundColor: "#ebebeb"}}>
+                                <th style={{width:"161px"}}>Hindi:</th>
+                                   
+                                    <td>92%</td>
+                                </tr>
+                                <tr>
+                                <th style={{width:"161px"}}>Social Science:</th>
+                                 
+                                    <td>98%</td>
+                                </tr>
+                                <tr style = {{backgroundColor: "#ebebeb"}}>
+                                <th  style={{width:"161px"}}>Science:</th>
+                                    <td>22%</td>
+                                </tr>
+                              
+                            </tbody>
+                        </table>
+                    </div>
+                    <h4 className='exam1'>Examination Report:</h4>
+                    <div class="list3">
+                    
+                        <div class="row">
+                           
+                            <h5>Term 1:</h5>
+                            
+                        </div>
+                        <table className='tabl3'>
+                            <thead>
+                                <tr style = {{backgroundColor: "#ebebeb"}}>
+                                    <th style={{width:"161px"}}>Maths:</th>
+                                     <td>45%</td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                <th style={{width:"161px"}}>English:</th>
+                                    
+                                    <td>67%</td>
+                                    
+                                </tr>
+                                <tr style = {{backgroundColor: "#ebebeb"}}>
+                                <th style={{width:"161px"}}>Hindi:</th>
+                                   
+                                    <td>92%</td>
+                                </tr>
+                                <tr>
+                                <th style={{width:"161px"}}>Social Science:</th>
+                                 
+                                    <td>98%</td>
+                                </tr>
+                                <tr style = {{backgroundColor: "#ebebeb"}}>
+                                <th  style={{width:"161px"}}>Science:</th>
+                                    <td>22%</td>
+                                </tr>
+                              
+                            </tbody>
+                        </table>
+                    </div>
+                    <div class="list4">
+                   
+                        <div class="row">
+                           
+                            <h5 style={{marginTop: "-5px"}}>Term 2:</h5>
+                            
+                        </div>
+                        <table className='tabl4'>
                             <thead>
                                 <tr style = {{backgroundColor: "#ebebeb"}}>
                                     <th style={{width:"161px"}}>Maths:</th>

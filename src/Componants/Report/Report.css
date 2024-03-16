@@ -1,13 +1,13 @@
-@media(max-width:760px){
-    .row-2{
+@media(max-width:760px) {
+    .row-2 {
         width: 830px;
         display: none;
     }
 
-    
-    .class{
+
+    .class {
         display: none;
-        
+
     }
 
     /* /* .module-body{
@@ -56,35 +56,56 @@
         right: 1px;
         /* width: 911px; 
     }*/
+}
+
+@media(min-width:760px) {
+    .exam {
+        display: none;
     }
 
-    @media(min-width:760px){
-        .exam{
-            display: none;
-        }
-       
+    .print1 {
+        position: absolute;
+        top: 4pc;
+        left: 63pc;
+        background: pink;
+        border: 1px solid pink;
+        border-radius: 25px;
+        width: 12pc;
+    }
 
-    } 
 
-    @media print {
+}
 
-        /* Styles to be applied only when printing */
-        body * {
-          visibility: visible;
-        }
-      
-      
-      
-      
-        .row-2 {
-          visibility: visible;
-          display: block;
-        }
-      
-        .exam {
-          display: none;
-          visibility: hidden;
-          /* display: none; */
-        }
-      
-      }
+@media print {
+
+    /* Styles to be applied only when printing */
+    body * {
+        visibility: visible;
+    }
+
+    .row-2{
+        display: block;
+        visibility: visible;
+    }
+
+
+    .class {
+        display: block;
+        visibility: visible;
+        position: absolute;
+        
+        right: 8pc;
+        /* transform: translate(-50%, -50%); */
+    }
+
+    .exam {
+        display: none;
+        visibility: hidden;
+        /* display: none; */
+    }
+    .print1{
+        display: none;
+        visibility: hidden;
+    }
+
+}

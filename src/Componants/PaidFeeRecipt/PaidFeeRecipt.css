@@ -1,0 +1,17 @@
+@media(min-width:760px)
+{
+    .container1{
+    position: absolute;
+    left: 17pc;
+    width: 63pc;
+}
+}
+@media(max-width:760px)
+{
+    .container1{
+        width: 23pc;
+        position: absolute;
+        top: 6pc;
+        left: 5px;
+}
+}

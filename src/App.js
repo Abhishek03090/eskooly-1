@@ -14,6 +14,9 @@ import Login from './Componants/Login/Login';
 import HamburgerMenu from './Componants/Header/HamburgerMenu';
 import { useEffect } from 'react';
 import DashBoard from './Componants/Dashboard/Dashboard';
+import PaidFeeRecipt from "./Componants/PaidFeeRecipt/PaidFeeRecipt"
+import HomeAssignment from './Componants/HomeAssignmet/HomeAssignment';
+import LiveClass from "./Componants/LiveClass/LiveClass"
 
 function App() {
   // const [isLoggedIn, setIsLoggedIn] = useState(false);
@@ -62,8 +65,11 @@ function App() {
             <Route path="/timetable" element={<TimeTable />} />
             <Route path="/report" element={<Report />} />
             <Route path="/testresult" element={<TestResult />} />
+            <Route path="/paidfeerecipt" element={<PaidFeeRecipt />} />
+            <Route path="/homeAssignment" element={<HomeAssignment />} />
             <Route path="/onlinestore" element={<OnlineStore />} />
             <Route path="/Exam-letter" element={<ExamResult />} />
+            <Route path="/liveclass" element={<LiveClass />} />
             <Route path="/message" element={<Message />} />
             <Route path="/accountsettings" element={<AccountSetting />} />
           </Routes>

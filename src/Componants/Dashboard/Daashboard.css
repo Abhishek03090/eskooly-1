@@ -1,156 +1,3 @@
-@media(min-width:760px) {
-
-  nav {
-    background: #fff;
-  }
-
-  .side_navbar {
-    padding: 1px;
-    display: flex;
-    flex-direction: column;
-  }
-
-  .side_navbar span {
-    color: gray;
-    margin: 1rem 3rem;
-    font-size: 12px;
-  }
-
-  .side_navbar a {
-    width: 100%;
-    padding: 0.8rem 3rem;
-    font-weight: 500;
-    font-size: 15px;
-    color: rgb(100, 100, 100);
-  }
-
-  .links {
-    margin-top: 5rem;
-    display: flex;
-    flex-direction: column;
-  }
-
-  .links a {
-    font-size: 13px;
-  }
-
-  .side_navbar a:hover {
-    background: rgb(235, 235, 235);
-  }
-
-  .side_navbar .active {
-    border-left: 2px solid rgb(100, 100, 100);
-  }
-
-  /* Main Body Section */
-  .main-body-1 {
-    width: 70%;
-    padding: 3rem;
-    position: absolute;
-    left: 14pc;
-  }
-
-  .promo_card {
-    width: 100%;
-    color: #fff;
-    margin-top: 10px;
-    border-radius: 8px;
-    padding: 0.5rem 1rem 1rem 3rem;
-    background: #007bff;
-  }
-
-  .promo_card h1,
-  .promo_card span,
-  button {
-    margin: 10px;
-  }
-
-  .promo_card button {
-    display: block;
-    padding: 6px 12px;
-    border-radius: 5px;
-    cursor: pointer;
-    background: linear-gradient(45deg, #ff808b, #f79099);
-  }
-
-  .history_lists {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    margin-top: 26px;
-  }
-
-  .row-6 {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin: 1rem 0;
-  }
-
-
-  .image {
-    width: 126px;
-    height: 126px;
-    position: absolute;
-    left: 43pc;
-    top: 8pc;
-  }
-
-  .list1 {
-    border: 1px solid black;
-    border-radius: 1pc;
-    box-shadow: 1px 2px 3px 3px gray;
-    padding: 23px;
-  }
-
-  .list2 {
-    border: 1px solid black;
-    border-radius: 1pc;
-    box-shadow: 1px 2px 3px 3px gray;
-    padding: 23px;
-    width: 23pc;
-  }
-
-  .exam1{
-    position: absolute;
-      top: 3rem;
-      left: 54rem;
-    
-  }
-
-  .list3{
-    border: 1px solid black;
-    border-radius: 1pc;
-    box-shadow: 1px 2px 3px 3px gray;
-    padding: 23px;
-    position: absolute;
-    top: 7rem;
-    left: 53rem;
-    width: 11.5pc
-  }
-
-  .list4{
-    border: 1px solid black;
-    border-radius: 1pc;
-    box-shadow: 1px 2px 3px 3px gray;
-    padding: 23px;
-    position: absolute;
-    top: 22rem;
-    left: 53rem;
-    width: 11.5pc
-  }
-
-  .tabl2{
-    width: 19pc;
-  }
-}
-
-
-
-
-
-
-
 @media (max-width:415px) {
   .main-body-1 {
     width: 400px;
@@ -252,7 +99,7 @@
 
 }
 
-@media (min-width:415px) and (max-width:760px) {
+@media (min-width:416px) and (max-width:760px) {
   .main-body-1 {
     width: 400px;
     padding: 3rem;
@@ -359,3 +206,318 @@
 
 
 }
+
+
+
+@media(min-width:761px) and (max-width: 1264px) {
+
+  nav {
+    background: #fff;
+  }
+
+  .side_navbar {
+    padding: 1px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .side_navbar span {
+    color: gray;
+    margin: 1rem 3rem;
+    font-size: 12px;
+  }
+
+  .side_navbar a {
+    width: 100%;
+    padding: 0.8rem 3rem;
+    font-weight: 500;
+    font-size: 15px;
+    color: rgb(100, 100, 100);
+  }
+
+  .links {
+    margin-top: 5rem;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .links a {
+    font-size: 13px;
+  }
+
+  .side_navbar a:hover {
+    background: rgb(235, 235, 235);
+  }
+
+  .side_navbar .active {
+    border-left: 2px solid rgb(100, 100, 100);
+  }
+
+  /* Main Body Section */
+  .main-body-1 {
+    width: 70%;
+    padding: 3rem;
+    position: absolute;
+    left: 14pc;
+  }
+
+  .promo_card {
+    width: 49pc;
+    color: #fff;
+    margin-top: 10px;
+    border-radius: 8px;
+    padding: 0.5rem 1rem 1rem 3rem;
+    background: #007bff;
+  }
+
+  .promo_card h1,
+  .promo_card span,
+  button {
+    margin: 10px;
+  }
+
+  .promo_card button {
+    display: block;
+    padding: 6px 12px;
+    border-radius: 5px;
+    cursor: pointer;
+    background: linear-gradient(45deg, #ff808b, #f79099);
+  }
+
+  .history_lists {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 26px;
+  }
+
+  .row-6 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1rem 0;
+  }
+
+
+  .image {
+    width: 126px;
+    height: 126px;
+    position: absolute;
+    left: 43pc;
+    top: 8pc;
+  }
+
+  .list1 {
+    border: 1px solid black;
+    border-radius: 1pc;
+    box-shadow: 1px 2px 3px 3px gray;
+    padding: 23px;
+  }
+
+  .list2 {
+    border: 1px solid black;
+    border-radius: 1pc;
+    box-shadow: 1px 2px 3px 3px gray;
+    padding: 23px;
+    width: 23pc;
+  }
+
+  .exam1{
+    position: absolute;
+      top: 3rem;
+      left: 54rem;
+    
+  }
+
+  .list3{
+    border: 1px solid black;
+    border-radius: 1pc;
+    box-shadow: 1px 2px 3px 3px gray;
+    padding: 23px;
+    position: absolute;
+    top: 7rem;
+    left: 53rem;
+    width: 11.5pc
+  }
+
+  .list4{
+    border: 1px solid black;
+    border-radius: 1pc;
+    box-shadow: 1px 2px 3px 3px gray;
+    padding: 23px;
+    position: absolute;
+    top: 22rem;
+    left: 53rem;
+    width: 11.5pc
+  }
+
+  .tabl2{
+    width: 19pc;
+  }
+}
+
+
+
+
+
+
+
+@media(min-width:1265px) and (max-width: 1500px)  {
+
+  nav {
+    background: #fff;
+  }
+
+  .side_navbar {
+    padding: 1px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .side_navbar span {
+    color: gray;
+    margin: 1rem 3rem;
+    font-size: 12px;
+  }
+
+  .side_navbar a {
+    width: 100%;
+    padding: 0.8rem 3rem;
+    font-weight: 500;
+    font-size: 15px;
+    color: rgb(100, 100, 100);
+  }
+
+  .links {
+    margin-top: 5rem;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .links a {
+    font-size: 13px;
+  }
+
+  .side_navbar a:hover {
+    background: rgb(235, 235, 235);
+  }
+
+  .side_navbar .active {
+    border-left: 2px solid rgb(100, 100, 100);
+  }
+
+  /* Main Body Section */
+  .main-body-1 {
+    width: 70%;
+    padding: 3rem;
+    position: absolute;
+    left: 14pc;
+  }
+
+  .promo_card {
+    width: 60pc;
+    color: #fff;
+    margin-top: 10px;
+    border-radius: 8px;
+    padding: 0.5rem 1rem 1rem 3rem;
+    background: #007bff;
+  }
+
+  .promo_card h1,
+  .promo_card span,
+  button {
+    margin: 10px;
+  }
+
+  .promo_card button {
+    display: block;
+    padding: 6px 12px;
+    border-radius: 5px;
+    cursor: pointer;
+    background: linear-gradient(45deg, #ff808b, #f79099);
+  }
+
+  .history_lists {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 26px;
+  }
+
+  .history_lists1{
+    position: absolute;
+    top: 0pc;
+    left: 13pc;
+  }
+
+  .row-6 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1rem 0;
+  }
+
+
+  .image {
+    width: 126px;
+    height: 126px;
+    position: absolute;
+    left: 53pc;
+    top: 8pc;
+  }
+
+  .list1 {
+    border: 1px solid black;
+    border-radius: 1pc;
+    box-shadow: 1px 2px 3px 3px gray;
+    padding: 23px;
+  }
+
+  .list2 {
+    border: 1px solid black;
+    border-radius: 1pc;
+    box-shadow: 1px 2px 3px 3px gray;
+    padding: 23px;
+    width: 23pc;
+  }
+
+  .exam1{
+    position: absolute;
+    top: 3rem;
+    left: 54rem;
+    
+  }
+
+  .list3{
+    border: 1px solid black;
+    border-radius: 1pc;
+    box-shadow: 1px 2px 3px 3px gray;
+    padding: 23px;
+    position: absolute;
+    top: 7rem;
+    left: 53rem;
+    width: 11.5pc
+  }
+
+  .list4{
+    border: 1px solid black;
+    border-radius: 1pc;
+    box-shadow: 1px 2px 3px 3px gray;
+    padding: 23px;
+    position: absolute;
+    top: 22rem;
+    left: 53rem;
+    width: 11.5pc
+  }
+
+  .tabl2{
+    width: 19pc;
+  }
+}
+
+
+
+
+
+
+

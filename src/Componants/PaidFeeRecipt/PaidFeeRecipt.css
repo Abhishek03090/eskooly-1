@@ -3,7 +3,8 @@
     .container1{
     position: absolute;
     left: 17pc;
-    width: 63pc;
+    width: 61pc;
+    top: 7pc;
 }
 }
 @media(max-width:760px)

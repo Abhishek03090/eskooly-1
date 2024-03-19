@@ -17,6 +17,7 @@ import DashBoard from './Componants/Dashboard/Dashboard';
 import PaidFeeRecipt from "./Componants/PaidFeeRecipt/PaidFeeRecipt"
 import HomeAssignment from './Componants/HomeAssignmet/HomeAssignment';
 import LiveClass from "./Componants/LiveClass/LiveClass"
+import "./App.css"
 
 function App() {
   // const [isLoggedIn, setIsLoggedIn] = useState(false);

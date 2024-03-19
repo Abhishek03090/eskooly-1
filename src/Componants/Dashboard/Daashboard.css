@@ -1,523 +1,124 @@
-@media (max-width:415px) {
-  .main-body-1 {
-    width: 400px;
-    padding: 3rem;
-    position: absolute;
-    left: -2pc;
-    top: 3pc;
-  }
+@media(min-width:761px)
+{
+  .img-1{
+  width: 10pc;
+  position: absolute;
+    top: 1pc;
+    left: 33pc;
+}
 
-  .promo_card {
-    width: 21pc;
-    height: 12pc;
-    color: #fff;
-    margin-top: 10px;
-    border-radius: 8px;
-    padding: 0.5rem 1rem 1rem 3rem;
-    background: black;
-  }
+.profile{
+  position: absolute;
+  left: 17pc;
+  top: 6pc;
+  width: 16pc;
+  border-radius: 10px;
+}
 
-  .image {
+.f10{
+  font-size: 10px;
+  color: #9698d6 !important;
+}
+
+.m-main{
+  position: absolute;
+  top: 5pc;
+  left: 35pc;
+  width: 44pc;
+}
+
+.bg{
+  position: absolute;
+  left: 2pc;
+  width: 42pc;
+  top: 2pc;
+}
+.wlcm{
+  padding-top: 0;
+  padding-bottom: 2;
+  border-top-left-radius: 20;
+  border-top-right-radius: 5;
+  background: linear-gradient(45deg, #5e81f4, #7191f7) !important;
+  width: 40pc;
+  position: absolute;
+  top: 0.6pc;
+  left: 3pc;
+}
+.attand{
+      position: absolute;
+    top: 13pc;
+    left: 34pc;
+}
+.piechart{
+  width: 43pc;
+  height: 16pc;
+}
+
+.reportCard{
+  position: absolute;
+    top: -3pc;
+}
+
+.part-2{
+  position: absolute;
+    top: 20pc;
+    left:-1pc;
+}
+
+}
+
+@media(max-width:760px)
+{
+  .profile{
     position: absolute;
-    width: 21%;
-    top: 139px;
+    left: 0pc;
+    top: 4pc;
+    width: 25pc;
+    border-radius: 10px;
+  }
+  .bg{
+    position: absolute;
+    left: 2pc;
+    width: 23pc;
+    top: 2.2pc;
+  }
+  .img-1{
+    width: 7pc;
+    position: absolute;
+    top: 2pc;
     left: 18pc;
   }
 
-  .font1 {
-    margin-left: -38px;
-  }
-
-  .font2 {
-    margin-left: -49px;
-  }
-
-  .butn {
+  .m-main{
     position: absolute;
-    top: 15pc;
-    left: 3.5pc;
+    top: 87pc;
+    left: 1pc;
+    width: 25pc;
   }
-
-  .list1{
-    border: 1px solid black;
-    border-radius: 1pc;
-    box-shadow: 1px 2px 3px 3px gray;
-    padding: 23px;
-    margin-right: -27px
-  }
-  .list2{
-    border: 1px solid black;
-    border-radius: 1pc;
-    box-shadow: 1px 2px 3px 3px gray;
-    padding: 23px;
-    margin-top: 25px;
-    margin-right: -27px;
-  }
-
-  .list3{
-    border: 1px solid black;
-    border-radius: 1pc;
-    box-shadow: 1px 2px 3px 3px gray;
-    padding: 23px;
-    margin-right: -40px;
-    
-  }
-
-  .list4{
-    border: 1px solid black;
-    border-radius: 1pc;
-    box-shadow: 1px 2px 3px 3px gray;
-    padding: 23px;
-    margin-right: -40px;
-    margin-top: 1pc;
-  }
-
-
-  .history_lists {
-    display: flex;
-    align-items: center;
-    /* justify-content: space-around; */
-    margin-top: 27px;
-    flex-direction: column
-  }
-
-  .tabl{
-    width:18pc
-  }
-  .tabl2{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width:18pc
-  }
-
-  .exam1{
-    margin-left: -73px;
-    margin-top: 12px;
-  }
-
-
-}
-
-@media (min-width:416px) and (max-width:760px) {
-  .main-body-1 {
-    width: 400px;
-    padding: 3rem;
+  .wlcm{
+    padding-top: 0;
+    padding-bottom: 2;
+    border-top-left-radius: 20;
+    border-top-right-radius: 5;
+    background: linear-gradient(45deg, #5e81f4, #7191f7) !important;
+    width: 21pc;
     position: absolute;
-    left: -2pc;
-    top: 3pc;
+    top: 0.6pc;
+    left: 3pc;
   }
 
-  .promo_card {
-    width: 37pc;
-    height: 12pc;
-    color: #fff;
-    margin-top: 10px;
-    border-radius: 8px;
-    padding: 0.5rem 1rem 1rem 3rem;
-    background: black;
-  }
 
-  .image {
+
+  .reportCard{
     position: absolute;
-    width: 32%;
-    top: 115px;
-    left: 31pc;
+    top: 75pc;
+    left: 5pc;
   }
 
-  .font1 {
-    margin-left: -38px;
-  }
-
-  .font2 {
-    margin-left: -49px;
-  }
-
-  .butn {
+  .part-2{
     position: absolute;
-    top: 13pc;
-    left: 4.5pc;
-    padding: 1pc;
-  }
-
-  .list1{
-    border: 1px solid black;
-    border-radius: 1pc;
-    box-shadow: 1px 2px 3px 3px gray;
-    padding: 23px;
-    margin-right: -281px
-  }
-  .list2{
-    border: 1px solid black;
-    border-radius: 1pc;
-    box-shadow: 1px 2px 3px 3px gray;
-    padding: 23px;
-    margin-top: 25px;
-    margin-right: -281px;
-  }
-
-  .list3{
-    border: 1px solid black;
-    border-radius: 1pc;
-    box-shadow: 1px 2px 3px 3px gray;
-    padding: 23px;
-    margin-right: -281px;
-    
-  }
-
-  .list4{
-    border: 1px solid black;
-    border-radius: 1pc;
-    box-shadow: 1px 2px 3px 3px gray;
-    padding: 23px;
-    margin-right: -281px;
-    margin-top: 1pc;
-  }
-
-
-  .history_lists {
-    display: flex;
-    align-items: center;
-    /* justify-content: space-around; */
-    margin-top: 27px;
-    flex-direction: column
-  }
-
-  .tabl{
-    width:33pc
-  }
-  .tabl2{
-   
-    width:33pc
-  }
-
-  .exam1{
-    margin-left: -73px;
-    margin-top: 12px;
-  }
-
-  .tabl3{
-    width:33pc
-  }
-
-  .tabl4{
-    width:33pc
-  }
-
-
-}
-
-
-
-@media(min-width:761px) and (max-width: 1300px) {
-
-  nav {
-    background: #fff;
-  }
-
-  .side_navbar {
-    padding: 1px;
-    display: flex;
-    flex-direction: column;
-  }
-
-  .side_navbar span {
-    color: gray;
-    margin: 1rem 3rem;
-    font-size: 12px;
-  }
-
-  .side_navbar a {
-    width: 100%;
-    padding: 0.8rem 3rem;
-    font-weight: 500;
-    font-size: 15px;
-    color: rgb(100, 100, 100);
-  }
-
-  .links {
-    margin-top: 5rem;
-    display: flex;
-    flex-direction: column;
-  }
-
-  .links a {
-    font-size: 13px;
-  }
-
-  .side_navbar a:hover {
-    background: rgb(235, 235, 235);
-  }
-
-  .side_navbar .active {
-    border-left: 2px solid rgb(100, 100, 100);
-  }
-
-  /* Main Body Section */
-  .main-body-1 {
-    width: 70%;
-    padding: 3rem;
-    position: absolute;
-    left: 14pc;
-  }
-
-  .promo_card {
-    width: 49pc;
-    color: #fff;
-    margin-top: 10px;
-    border-radius: 8px;
-    padding: 0.5rem 1rem 1rem 3rem;
-    background: #007bff;
-  }
-
-  .promo_card h1,
-  .promo_card span,
-  button {
-    margin: 10px;
-  }
-
-  .promo_card button {
-    display: block;
-    padding: 6px 12px;
-    border-radius: 5px;
-    cursor: pointer;
-    background: linear-gradient(45deg, #ff808b, #f79099);
-  }
-
-  .history_lists {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    margin-top: 26px;
-  }
-
-  .row-6 {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin: 1rem 0;
-  }
-
-
-  .image {
-    width: 126px;
-    height: 126px;
-    position: absolute;
-    left: 43pc;
-    top: 8pc;
-  }
-
-  .list1 {
-    border: 1px solid black;
-    border-radius: 1pc;
-    box-shadow: 1px 2px 3px 3px gray;
-    padding: 23px;
-  }
-
-  .list2 {
-    border: 1px solid black;
-    border-radius: 1pc;
-    box-shadow: 1px 2px 3px 3px gray;
-    padding: 23px;
-    width: 23pc;
-  }
-
-  .exam1{
-    position: absolute;
-      top: 3rem;
-      left: 54rem;
-    
-  }
-
-  .list3{
-    border: 1px solid black;
-    border-radius: 1pc;
-    box-shadow: 1px 2px 3px 3px gray;
-    padding: 23px;
-    position: absolute;
-    top: 7rem;
-    left: 53rem;
-    width: 11.5pc
-  }
-
-  .list4{
-    border: 1px solid black;
-    border-radius: 1pc;
-    box-shadow: 1px 2px 3px 3px gray;
-    padding: 23px;
-    position: absolute;
-    top: 22rem;
-    left: 53rem;
-    width: 11.5pc
-  }
-
-  .tabl2{
-    width: 19pc;
+      top: 20pc;
+      left:-4pc;
   }
 }
-
-
-
-
-
-
-
-@media(min-width:1300px) and (max-width: 1500px)  {
-
-  nav {
-    background: #fff;
-  }
-
-  .side_navbar {
-    padding: 1px;
-    display: flex;
-    flex-direction: column;
-  }
-
-  .side_navbar span {
-    color: gray;
-    margin: 1rem 3rem;
-    font-size: 12px;
-  }
-
-  .side_navbar a {
-    width: 100%;
-    padding: 0.8rem 3rem;
-    font-weight: 500;
-    font-size: 15px;
-    color: rgb(100, 100, 100);
-  }
-
-  .links {
-    margin-top: 5rem;
-    display: flex;
-    flex-direction: column;
-  }
-
-  .links a {
-    font-size: 13px;
-  }
-
-  .side_navbar a:hover {
-    background: rgb(235, 235, 235);
-  }
-
-  .side_navbar .active {
-    border-left: 2px solid rgb(100, 100, 100);
-  }
-
-  /* Main Body Section */
-  .main-body-1 {
-    width: 70%;
-    padding: 3rem;
-    position: absolute;
-    left: 14pc;
-  }
-
-  .promo_card {
-    width: 60pc;
-    color: #fff;
-    margin-top: 10px;
-    border-radius: 8px;
-    padding: 0.5rem 1rem 1rem 3rem;
-    background: #007bff;
-  }
-
-  .promo_card h1,
-  .promo_card span,
-  button {
-    margin: 10px;
-  }
-
-  .promo_card button {
-    display: block;
-    padding: 6px 12px;
-    border-radius: 5px;
-    cursor: pointer;
-    background: linear-gradient(45deg, #ff808b, #f79099);
-  }
-
-  .history_lists {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    margin-top: 26px;
-  }
-
-  .history_lists1{
-    position: absolute;
-    top: 0pc;
-    left: 13pc;
-  }
-
-  .row-6 {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin: 1rem 0;
-  }
-
-
-  .image {
-    width: 126px;
-    height: 126px;
-    position: absolute;
-    left: 53pc;
-    top: 8pc;
-  }
-
-  .list1 {
-    border: 1px solid black;
-    border-radius: 1pc;
-    box-shadow: 1px 2px 3px 3px gray;
-    padding: 23px;
-  }
-
-  .list2 {
-    border: 1px solid black;
-    border-radius: 1pc;
-    box-shadow: 1px 2px 3px 3px gray;
-    padding: 23px;
-    width: 23pc;
-  }
-
-  .exam1{
-    position: absolute;
-    top: 3rem;
-    left: 54rem;
-    
-  }
-
-  .list3{
-    border: 1px solid black;
-    border-radius: 1pc;
-    box-shadow: 1px 2px 3px 3px gray;
-    padding: 23px;
-    position: absolute;
-    top: 7rem;
-    left: 53rem;
-    width: 11.5pc
-  }
-
-  .list4{
-    border: 1px solid black;
-    border-radius: 1pc;
-    box-shadow: 1px 2px 3px 3px gray;
-    padding: 23px;
-    position: absolute;
-    top: 22rem;
-    left: 53rem;
-    width: 11.5pc
-  }
-
-  .tabl2{
-    width: 19pc;
-  }
-}
-
-
-
-
-
-
 

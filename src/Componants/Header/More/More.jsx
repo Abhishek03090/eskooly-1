@@ -53,7 +53,7 @@ function More(onuse) {
               className={activeButton === 'dashboard' ? 'active' : ''}
             >
               <FontAwesomeIcon icon={faUser} />
-              <span>Dashboard</span>
+              <span className='span'>Dashboard</span>
             </Link>
           </li>
           <li className="" id="admissionletter">
@@ -63,7 +63,7 @@ function More(onuse) {
               className={activeButton === 'admissionletter' ? 'active' : ''}
             >
               <FontAwesomeIcon icon={faIdBadge} />
-              <span>Admission Letter</span>
+              <span className='span'>Admission Letter</span>
             </Link>
           </li>
           <li className="" id="paidfeerecipt">
@@ -73,7 +73,7 @@ function More(onuse) {
               className={activeButton === 'paidfeerecipt' ? 'active' : ''}
             >
               <FontAwesomeIcon icon={faReceipt} />
-              <span>Paid Fee Receipt</span>
+              <span className='span'>Paid Fee Receipt</span>
             </Link>
           </li>
           <li className="" id="mytimetable">
@@ -83,7 +83,7 @@ function More(onuse) {
               className={activeButton === 'mytimetable' ? 'active' : ''}
             >
               <FontAwesomeIcon icon={faCalendarDays} />
-              <span>My Timetable</span>
+              <span className='span'>My Timetable</span>
             </Link>
           </li>
           <li className="" id="myreportcard">
@@ -93,7 +93,7 @@ function More(onuse) {
               className={activeButton === 'myreportcard' ? 'active' : ''}
             >
               <FontAwesomeIcon icon={faChartColumn} />
-              <span>My Report Card</span>
+              <span className='span'>My Report Card</span>
             </Link>
           </li>
           <li className="" id="testresult">
@@ -103,7 +103,7 @@ function More(onuse) {
               className={activeButton === 'testresult' ? 'active' : ''}
             >
               <FontAwesomeIcon icon={faChartPie} />
-              <span>Test Result</span>
+              <span className='span'>Test Result</span>
             </Link>
           </li>
           <li className="" id="examletter">
@@ -113,7 +113,7 @@ function More(onuse) {
               className={activeButton === 'examletter' ? 'active' : ''}
             >
               <FontAwesomeIcon icon={faPenToSquare} />
-              <span>Exam Letter</span>
+              <span className='span'>Exam Letter</span>
             </Link>
           </li>
           <li className="" id="homeassignment">
@@ -123,7 +123,7 @@ function More(onuse) {
               className={activeButton === 'homeassignment' ? 'active' : ''}
             >
               <FontAwesomeIcon icon={faCode} />
-              <span>Home Assignment</span>
+              <span className='span'>Home Assignment</span>
             </Link>
           </li>
           <li className="" id="onlinestore">
@@ -133,7 +133,7 @@ function More(onuse) {
               className={activeButton === 'onlinestore' ? 'active' : ''}
             >
               <FontAwesomeIcon icon={faCartShopping} />
-              <span>Online Store</span>
+              <span className='span'>Online Store</span>
             </Link>
           </li>
           <li className="" id="messaging">
@@ -143,7 +143,7 @@ function More(onuse) {
               className={activeButton === 'messaging' ? 'active' : ''}
             >
               <FontAwesomeIcon icon={faMessage} />
-              <span>Messaging</span>
+              <span className='span'>Messaging</span>
             </Link>
           </li>
           <li className="" id="liveclass">
@@ -153,7 +153,7 @@ function More(onuse) {
               className={activeButton === 'liveclass' ? 'active' : ''}
             >
               <FontAwesomeIcon icon={faVideo} />
-              <span>Live Class</span>
+              <span className='span'>Live Class</span>
             </Link>
           </li>
           <li className="" id="accountsettings">
@@ -163,7 +163,7 @@ function More(onuse) {
               className={activeButton === 'accountsettings' ? 'active' : ''}
             >
               <FontAwesomeIcon icon={faGear} />
-              <span>Account Settings</span>
+              <span className='span'>Account Settings</span>
             </Link>
           </li>
           {/* <li className="" id="logout">
@@ -173,7 +173,7 @@ function More(onuse) {
               className={activeButton === 'logout' ? 'active' : ''}
             >
               <FontAwesomeIcon icon={faLock} />
-              <span>Logout</span>
+              <span className='span'>Logout</span>
             </Link>
           </li> */}
         </ul>

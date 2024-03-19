@@ -558,7 +558,7 @@ const Dashboard = () => {
                         }}
                     >
                         {/* <div className="piechart"> */}
-                        <Chart
+                        {/* <Chart
                             chartType="PieChart"
                             data={data}
                             options={options}
@@ -566,7 +566,7 @@ const Dashboard = () => {
                             height={"14pc"}
                             style={{ position: "absolute" }}
 
-                        />
+                        /> */}
                         {/* </div> */}
 
 

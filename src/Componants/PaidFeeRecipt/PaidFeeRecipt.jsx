@@ -15,7 +15,7 @@ function PaidFeeRecipt() {
                   <a href="#">My Account</a>
                 </li>
                 <li className="breadcrumb-item active" aria-current="page">
-                  Order History
+                  Paid Fee Recipt
                 </li>
               </ol>
             </nav>
@@ -23,7 +23,8 @@ function PaidFeeRecipt() {
         </div>
         <div className="row text-start">
           <div className="col">
-            <h3 className="fw-bold">Order History</h3>
+            <h3 className="fw-bold">Paid Fee Recipt
+            </h3>
           </div>
         </div>
         <div className="row">
@@ -31,11 +32,11 @@ function PaidFeeRecipt() {
             <table class="table table-striped table-borderless">
               <thead>
                 <tr>
-                  <th scope="col">Order Date</th>
-                  <th scope="col ">Order Number</th>
-                  <th scope="col">Total</th>
+                  <th scope="col">Date</th>
+                  <th scope="col ">Recipt Number</th>
+                  <th scope="col">Total Amount</th>
                   <th scope="col">Status</th>
-                  <th scope="col">Shipping</th>
+                  <th scope="col">Method</th>
                 </tr>
               </thead>
               <tbody>
@@ -43,31 +44,31 @@ function PaidFeeRecipt() {
                   <td>4/25/2022</td>
                   <td>1156489</td>
                   <td>$36.76</td>
-                  <td>Order Received</td>
-                  <td></td>
+                  <td>Complete</td>
+                  <td>Card</td>
                 </tr>
                 <tr>
                   <td>4/25/2022</td>
                   <td>1156489</td>
                   <td>$36.76</td>
                   <td>Processing</td>
-                  <td>Track Shipping</td>
+                  <td>Cheque</td>
                 </tr>
                 <tr>
                   <td>4/25/2022</td>
                   <td>1156489</td>
                   <td>$36.76</td>
-                  <td>Order Shipped</td>
-                  <td>Track Shipping</td>
+                  <td>Paid</td>
+                  <td>NEFT</td>
                 </tr>
-                
-                  
-                
+
+
+
               </tbody>
             </table>
           </div>
         </div>
-      
+
       </div>
     </div>
   );

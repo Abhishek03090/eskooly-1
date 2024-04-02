@@ -101,6 +101,13 @@
     animation: bounce 0.6s infinite;
 }
 
+.style{
+    color: white;
+    font-size: large;
+    position: relative;
+    top: 5px;
+}
+
 @keyframes bounce {
 
     0%,

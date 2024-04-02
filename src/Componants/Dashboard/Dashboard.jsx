@@ -9,22 +9,9 @@ import Hi from "../../Assests/hi.png"
 import apploginbg from '../../Assests/apploginbg.jpg';
 import { Chart } from "react-google-charts";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faBook } from '@fortawesome/free-solid-svg-icons'
+import { faBook, faSearch } from '@fortawesome/free-solid-svg-icons'
 
 const Dashboard = () => {
-    const data = [
-        ["Attandence", "per Day"],
-        ["A", 1],
-        ["P", 1],
-        ["L", 2],
-
-
-    ];
-
-    const options = {
-        title: "",
-    };
-
     return (
 
         <><div
@@ -549,151 +536,70 @@ const Dashboard = () => {
                         <strong className=" f-16" style={{ display: "flex", position: "absolute", left: "2pc", width: "18pc", }}>Attandence Report</strong>
                         <span style={{ fontSize: 12 }} className="f-right" />
                     </h6>
+
+
+
+
+                </div>
+                <div className='reportCard' >
+                    <h6 className="w-100 part-2">
+                        <div
+                            className="bg-gradient-blue m-white"
+                            style={{
+                                width: 20,
+                                height: 20,
+                                borderRadius: 10,
+                                display: "inline-block",
+                                paddingTop: 0,
+                                paddingLeft: 6,
+                                background: "blue",
+                                position: "absolute",
+                                left: 7
+                            }}
+                        >
+                            2
+                        </div>{" "}
+                        <strong className="gradient-blue f-16" style={{ display: "flex", position: "absolute", left: "2pc", width: "18pc" }}>Class Tests Report </strong>
+                        <span style={{ fontSize: 12 }} className="f-right" />
+                    </h6>
                     <div
                         className="row m-t-10 m-b-20 m-round"
                         style={{
 
                             background: "#FFF",
-                            marginLeft: 5
+                            marginLeft: 5,
+                            width: "18pc",
+                            position: "absolute",
+                            top: "22pc",
+                            left: "1pc"
                         }}
                     >
-                        {/* <div className="piechart"> */}
-                        {/* <Chart
-                            chartType="PieChart"
-                            data={data}
-                            options={options}
-                            width={"16pc"}
-                            height={"14pc"}
-                            style={{ position: "absolute" }}
-
-                        /> */}
-                        {/* </div> */}
-
-
-
-                    </div>
-                    <div className='reportCard' >
-                        <h6 className="w-100 part-2">
+                        <div className="col-12 p-0">
                             <div
-                                className="bg-gradient-blue m-white"
-                                style={{
-                                    width: 20,
-                                    height: 20,
-                                    borderRadius: 10,
-                                    display: "inline-block",
-                                    paddingTop: 0,
-                                    paddingLeft: 6,
-                                    background: "blue",
-                                    position: "absolute",
-                                    left: 7
-                                }}
+                                className="row m-10 p-10 p-b-0 m-round"
+                                style={{ background: "#fff" }}
                             >
-                                2
-                            </div>{" "}
-                            <strong className="gradient-blue f-16" style={{ display: "flex", position: "absolute", left: "2pc", width: "18pc" }}>Class Tests Report </strong>
-                            <span style={{ fontSize: 12 }} className="f-right" />
-                        </h6>
-                        <div
-                            className="row m-t-10 m-b-20 m-round"
-                            style={{
-
-                                background: "#FFF",
-                                marginLeft: 5,
-                                width: "18pc",
-                                position: "absolute",
-                                top: "22pc",
-                                left: "0pc"
-                            }}
-                        >
-                            <div className="col-12 p-0">
-                                <div
-                                    className="row m-10 p-10 p-b-0 m-round"
-                                    style={{ background: "#fff" }}
-                                >
-                                    <div className="col-8 m-gray p-0 f-10" style={{ marginLeft: "9px", fontSize: "small" }} >
-                                        <strong className="m-dblue f-16">
-                                            <FontAwesomeIcon icon={faBook} /> Maths
+                                <div className="col-8 m-gray p-0 f-10" style={{ marginLeft: "9px", fontSize: "small" }} >
+                                    <strong className="m-dblue f-16">
+                                        <FontAwesomeIcon icon={faBook} /> Maths
+                                    </strong>
+                                    <br />
+                                    <div style={{ marginTop: 5, marginBottom: 5 }}>
+                                        <strong className="f-14 " style={{ display: "inline-block" }}>
+                                            0%
                                         </strong>
-                                        <br />
-                                        <div style={{ marginTop: 5, marginBottom: 5 }}>
-                                            <strong className="f-14 " style={{ display: "inline-block" }}>
-                                                0%
-                                            </strong>
-                                            <div
-                                                className="progress"
-                                                style={{
-                                                    height: 8,
-                                                    borderRadius: 5,
-                                                    width: 90,
-                                                    display: "inline-block"
-                                                }}
-                                            >
-                                                <div
-                                                    className="progress-bar  f-left"
-                                                    role="progressbar"
-                                                    aria-valuenow={0}
-                                                    aria-valuemin={0}
-                                                    aria-valuemax={100}
-                                                    style={{ width: "0%", borderRadius: 5 }}
-                                                ></div>
-                                            </div>
-                                        </div>
-                                        <span className="bg-m-orange badge" style={{ padding: 5 }} /> TOTAL{" "}
-                                        <b>CLASS TESTS</b> (<strong className="m-orange f-12">0</strong>)
-                                        <br />
-                                        <span
-                                            className="bg-m-gray badge"
-                                            style={{ padding: 5 }}
-                                        /> TOTAL <b>MARKS</b> (<strong className="m-gray f-12">0</strong>)
-                                        <br />
-                                        <span className="bg-m-blue1 badge" style={{ padding: 5 }} />{" "}
-                                        OBTAINED <b>MARKS</b> (<strong className="m-blue1 f-12">0</strong>)
+
                                     </div>
-                                    <div className="col-4 p-0">
-                                        <input type="hidden" defaultValue={0} id="perval0" />
-                                        <div id="progress0" style={{
-                                            position: "relative",
-                                            top: " -7pc",
-                                            left: "11pc"
-                                        }}>
-                                            <svg viewBox="0 0 110 100">
-                                                <linearGradient id="gradient0" x1={0} y1={0} x2={0} y2="100%">
-                                                    <stop offset="0%" stopColor="#f5365c" />
-                                                    <stop offset="100%" stopColor="#f56036" />
-                                                </linearGradient>
-                                                <path
-                                                    className="grey"
-                                                    d="M30,90 A40,40 0 1,1 80,90"
-                                                    fill="none"
-                                                />
-                                                <path
-                                                    id="blue"
-                                                    fill="none"
-                                                    className="blue"
-                                                    d="M30,90 A40,40 0 1,1 80,90"
-                                                    style={{ stroke: 'url("#gradient0")', strokeDashoffset: 200 }}
-                                                />
-                                                <text
-                                                    x="50%"
-                                                    y="60%"
-                                                    dominantBaseline="middle"
-                                                    textAnchor="middle"
-                                                    style={{ fontSize: 18, fontWeight: 900 }}
-                                                >
-                                                    0%
-                                                </text>
-                                                <text
-                                                    x="50%"
-                                                    y="90%"
-                                                    dominantBaseline="middle"
-                                                    textAnchor="middle"
-                                                    style={{ fontSize: 12 }}
-                                                >
-                                                    score
-                                                </text>
-                                            </svg>
-                                        </div>
-                                    </div>
+                                    <span className="bg-m-orange badge" style={{ padding: 5 }} /> TOTAL{" "}
+                                    <b>CLASS TESTS</b> (<strong className="m-orange f-12">0</strong>)
+                                    <br />
+                                    <span
+                                        className="bg-m-gray badge"
+                                        style={{ padding: 5 }}
+                                    /> TOTAL <b>MARKS</b> (<strong className="m-gray f-12">0</strong>)
+                                    <br />
+                                    <span className="bg-m-blue1 badge" style={{ padding: 5 }} />{" "}
+                                    OBTAINED <b>MARKS</b> (<strong className="m-blue1 f-12">0</strong>)
                                 </div>
                             </div>
                         </div>
@@ -701,11 +607,85 @@ const Dashboard = () => {
                 </div>
             </div>
 
+            <div className="col-lg-6" style={{position: "absolute",
+    top: "13pc",
+    left: "55pc"}}>
+                <h6 className="w-100">
+                    <div
+                        className="bg-gradient-blue m-white"
+                        style={{
+                            width: 20,
+                            height: 20,
+                            borderRadius: 10,
+                            display: "inline-block",
+                            paddingTop: 0,
+                            paddingLeft: 6,
+                            background: "blue",
+                            position: "absolute",
+                            left: 7
+                        }}
+                    >
+                        3
+                    </div>{" "}
+                    <strong className="gradient-blue f-16" style={{ display: "flex", position: "absolute", left: "2pc", width: "18pc" }}>Examination Report </strong>
+                    <span style={{ fontSize: 12 }} className="f-right" />
+                </h6>
+                <div
+                    className="row m-round m-t-10 m-b-20"
+                    style={{ padding: 5, background: "#fff", marginLeft: 5, paddingTop: 15, width: "22pc",
+                    borderRadius: "10px",marginTop:"2pc",marginBottom:"1pc"  }}
+                >
+                    <div className="col-12 text-center">
+                        <p className="text-center m-gray f-12 m-t-10">
+                            <img src={NF} style={{ width: 200 }} />
+                            <br />
+                            <strong style={{fontSize:"small" ,color:"gray"}}>
+                                <FontAwesomeIcon icon={faSearch} /> No Record Found.
+                            </strong>
+                        </p>
+                    </div>
+                </div>
+                <h6 className="w-100">
+                    <div
+                        className="bg-gradient-blue m-white"
+                        style={{
+                            width: 20,
+                            height: 20,
+                            borderRadius: 10,
+                            display: "inline-block",
+                            paddingTop: 0,
+                            paddingLeft: 6,
+                            background: "blue",
+                            position: "absolute",
+                            left: 7
+                        }}
+                    >
+                        4
+                    </div>{" "}
+                    <strong className="gradient-blue f-16" style={{ display: "flex", position: "absolute", left: "2pc", width: "18pc" }}>Fee Report </strong>
+                    <span style={{ fontSize: 12 }} className="f-right" />
+                </h6>
+                <div
+                    className="row m-t-10 m-round"
+                    style={{ padding: 5, background: "#fff", marginLeft: 5, width: "22pc",
+                    borderRadius: "10px" , marginTop:"3pc" }}
+                >
+                    <div className="col-12 p-0">
+                        <div className="col-12 text-center">
+                            <p className="text-center m-gray f-12 m-t-10">
+                                <img src={NF} style={{ width: 200 }} />
+                                <br />
+                                <strong style={{fontSize:"small" ,color:"gray"}}>
+                                <FontAwesomeIcon icon={faSearch} /> No Record Found.
+                            </strong>
+
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
         </>
-
-
-
-
     )
 }
 export default Dashboard;

@@ -49,10 +49,7 @@
     top: 13pc;
     left: 34pc;
 }
-.piechart{
-  width: 43pc;
-  height: 16pc;
-}
+
 
 .reportCard{
   position: absolute;
@@ -62,7 +59,7 @@
 .part-2{
   position: absolute;
     top: 20pc;
-    left:-1pc;
+    left:0pc;
 }
 
 }

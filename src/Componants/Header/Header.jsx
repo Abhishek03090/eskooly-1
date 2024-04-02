@@ -118,29 +118,30 @@ function Header({ onMoreClick }) {
                 alt="User"
               />
             </Nav.Link>
+          
+              <NavDropdown title="Anuj Pandey" id="basic-nav-dropdown" className='style'>
+                <NavDropdown.Item href="#">Account Settings</NavDropdown.Item>
+                <NavDropdown.Item href="#">Log Out</NavDropdown.Item>
+              </NavDropdown>
+            
 
-            <NavDropdown title="User" id="basic-nav-dropdown">
-              <NavDropdown.Item href="#">Account Settings</NavDropdown.Item>
-              <NavDropdown.Item href="#">Log Out</NavDropdown.Item>
-            </NavDropdown>
-          
-            </Nav>
-          
-           <Nav classname="display">
-           {/* <Nav.Link
+          </Nav>
+
+          <Nav classname="display">
+            {/* <Nav.Link
               href="#"
               className={`hamburger-icon ${showHamburger ? 'active' : ''}`}
               onClick={handleHamburgerClick}
             >
               <FontAwesomeIcon icon={faCog} className='gripline' />
             </Nav.Link> */}
-            
-           </Nav>
-            
+
+          </Nav>
+
         </Container>
       </Navbar>
       {/* {showMore && <More onClose={closeBothMenus} />}    */}
-      </>
+    </>
   );
 }
 
